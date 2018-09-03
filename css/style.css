@@ -4,6 +4,7 @@ body{
     margin: 0;
     font-family: 'Roboto';
     font-size: 18px;
+    overflow-x: hidden;
 }
 img{
     max-width: 100%;
@@ -62,7 +63,7 @@ header small{
 .portfolio{
     background-color: #E6E9EC;
     padding-top: 44px;
-    padding-bottom: 71px;
+    padding-bottom: 55px;
 }
 .portfolio-block{
     background-color: #fff;
@@ -86,9 +87,11 @@ header small{
 }
 .portfolio-col1{
     padding-left: 50px;
+    padding-bottom: 15px;
 }
 .portfolio-col2{
     padding-right: 50px;
+    padding-bottom: 15px;
 }
 .portfolio-block img{
     width: 100%;
@@ -114,12 +117,13 @@ text-decoration: underline;
 footer{
     background-color: #3a7dfd;
     color: #fff;
-    padding-top: 60px;
+    padding-top: 25px;
     padding-bottom: 70px; 
 }
 .footer-author{
     font-size: 24px;
-    margin-bottom: 7px;
+    margin-bottom: 13px;
+    margin-top: 12px;
 }
 .footer-text{
     margin-top: 0;
@@ -134,7 +138,8 @@ footer{
     margin-right: 13px;
 }
 .social-block p{
-    margin-top: 0;
+    margin-top: 18px;
+    margin-bottom: 12px;
 }
 .scale:hover {
 	transform: scale(1.3);
