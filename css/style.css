@@ -16,6 +16,9 @@ header{
 .header-pretitle{
     margin-top: 102px;
 }
+.header-img{
+    padding-bottom: 20px;
+}
 .header-title{
     font-size: 45px;
     font-weight: 700;
@@ -23,21 +26,28 @@ header{
     margin-top: 21px;
 }
 .header-subtitle{
-    margin-top: 20px;
+    margin-top: 25px; 
 }
 .header-button{
     display: inline-block;
     text-decoration: none;
-    box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
+    box-shadow: 4px 4px 10px 6px rgba(18, 61, 145, 0.4);
     border-radius: 50px;
     background-color: #ffffff;
-    color: #072b6f;
+    color: #2B64D4;
     font-size: 18px;
     font-weight: 700;
     padding: 17px 55px; 
-    margin-top: 33px;
+    margin-top: 12px;    
     border: none;
 }
+.header-button:hover{
+    box-shadow: none;
+    color: #fff;
+    background-color: #1145A6;
+    transition: 0.8s;
+}
+
 header small{
     font-size: 12px;
     display: block;
@@ -50,7 +60,7 @@ header small{
 }
 /* секция портфолио */
 .portfolio{
-    background-color: #dddddd;
+    background-color: #E6E9EC;
     padding-top: 44px;
     padding-bottom: 71px;
 }
@@ -116,6 +126,7 @@ footer{
 }
 .social-block{
     text-align: center;
+    overflow:hidden;
 }
 .social-block a {
     display: inline-block;
@@ -125,6 +136,11 @@ footer{
 .social-block p{
     margin-top: 0;
 }
+.scale:hover {
+	transform: scale(1.3);
+    transition: all 0,5s ease-out;
+}
+
 .footer-cta-block{
     text-align: center;
 }
@@ -143,6 +159,12 @@ footer{
 }
 .header-button, .footer-button{
     cursor:pointer;
+}
+
+.footer-button:hover{
+    color: #3A7DFD;
+    background-color: #fff;
+    transition: 0.8s;
 }
 
 @media (max-width: 1200px){
